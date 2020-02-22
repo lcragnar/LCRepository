@@ -1,0 +1,19 @@
+{
+  "name": "06",
+  "version": "1.0.0",
+  "description": "This directory contains files related to Chapter 6 of Learning jQuery, Fourth Edition. Included are the following:",
+  "main": "06.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcragnar/LCRepository.git"
+  },
+  "author": "Leo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lcragnar/LCRepository/issues"
+  },
+  "homepage": "https://github.com/lcragnar/LCRepository#readme"
+}
