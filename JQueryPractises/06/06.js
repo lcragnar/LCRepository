@@ -93,3 +93,36 @@ $(document).ready(function () {
     });
 });
 
+//letter e
+// $(document).ready(function(){
+//     $('#letter-e a').click(function(event){
+//         event.preventDefault();
+//         var requestData = { term: $(this).text() };
+
+//         $.get('e.php', requestData, function(data){
+//             $('#dictionary').html(data);
+//         });
+//     });
+// });
+
+$(document).ready(function(){
+    $('#letter-e a').click(function(event){
+        event.preventDefault();
+        var requestData = { term : $(this).text() };
+
+        $('#dictionary').load('e.php', requestData);
+    });
+});
+
+// Example of a form submission
+$(document).ready(function(){
+    $('#letter-f form').submit(function(event){
+        event.preventDefault();
+        var formValues = $(this).serialize();
+        $.get('f.php', formValues, function(data){
+            
+            $('#dictionary').html(data);
+
+        });
+    });
+});

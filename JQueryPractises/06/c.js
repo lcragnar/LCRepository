@@ -33,6 +33,8 @@ var entries = [
 
 var html = '';
 
+
+
 $.each(entries, function() {
   html += '<div class="entry">';
   html += '<h3 class="term">' + this.term + '</h3>';
