@@ -1,0 +1,7 @@
+1 - npm install tsd -g
+
+2 - npm install typings --global
+
+3 - typing install dt~jquery --global
+
+Then within typings folder to look at the file index.d.ts and copy the path inside this file to my .js file in order to begin using jquery intellisense

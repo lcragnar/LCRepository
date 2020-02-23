@@ -78,7 +78,8 @@ a {
 
 #dictionary {
   float: left;
-  width: 78%;
+  color: #111;
+   width: 78%;
 }
 
 .entry {
